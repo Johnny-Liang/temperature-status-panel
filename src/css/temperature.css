@@ -1,0 +1,35 @@
+.cabinet-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cabinet {
+  position: relative;
+  margin: 15px;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+.num {
+  position: absolute;
+  top: 38px;
+  width: 100%;
+  text-align: center;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+}
+.normal {
+  background: #73bf69;
+}
+.warning {
+  background: #eab839;
+}
+.error {
+  background: #f2495c;
+}

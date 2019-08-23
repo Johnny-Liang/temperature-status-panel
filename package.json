@@ -1,0 +1,19 @@
+{
+  "name": "temperature-status-panel",
+  "version": "1.0.0",
+  "description": "temperature-status-panel",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "keywords": ["temperature", "grafana", "panel"],
+  "author": "Johnny",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "latest"
+  }
+}
